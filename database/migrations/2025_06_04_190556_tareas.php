@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('project_id');
             $table->string('title',150);
-            $table->bolean('completed');
+            $table->boolean('completed');
             $table->date('due_date');
             $table->timestamps();
 
